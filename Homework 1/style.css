@@ -1,0 +1,44 @@
+body {
+  background: #E8E8E8;
+}
+
+.A4 {
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+	background: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.inA4 {
+  padding: 40px 50px;
+  width: auto;
+  height: auto;
+  font-size:18px;
+}
+
+.h1 {
+    font-family:Times New Romam;
+    font-size:24px;
+    text-align: center;
+}
+
+img {
+    padding-left: 150px;
+    width: 200px;
+}
+
+.p {
+  padding-left: 14px;
+  margin-bottom: 12px;
+}
+
+.underline {
+	border-top: 1px solid black;
+  line-height: 1.8;
+  padding-left: 14px;
+}
+
+ul {
+  padding: 0px 23px;
+}

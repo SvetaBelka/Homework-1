@@ -1,0 +1,196 @@
+body{
+  background: #E8E8E8;
+  }
+
+.A4{
+  width: 1000px;
+  height: 1000px;
+	background: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  margin: 0 auto;
+}
+
+.header {
+  padding: 50px 50px;
+  height: 170px;
+  box-sizing: border-box;
+}
+
+.cont {
+  margin: 50px 50px;
+  height: 620px;
+}
+
+.footer {
+  background-color: grey;
+  padding: 0px 50px;
+  box-sizing: border-box;
+}
+
+.link1,
+.link2_active,
+.link3,
+.link4 {
+      float: left;
+      padding: 15px 15px;
+      margin-top: 20px;
+      box-sizing: border-box;
+}
+
+.link1 {
+      width: 150px;
+      height: auto;
+      background-color: 4f4e4e;
+}
+
+.link2_active {
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+      width: 100px;
+      height: auto;
+      background-color: 484848;
+      text-align: center;
+}
+
+.link3 {
+      width: 170px;
+      height: auto;
+      background-color: 4f4e4e;
+      text-align: center;
+}
+
+.link4 {
+      width: 477px;
+      height: auto;
+      background-color: 4f4e4e;
+}
+
+.a1 {
+      text-decoration: none;
+      font-size: 18px;
+      font-family: Calibri; /*Open Sens шрифт я подключить не смогла*/
+      color: white;
+}
+
+.left_menu {
+      float: left;
+      width: 300px;
+      height: 620px;
+      box-sizing: border-box;
+}
+
+.info {
+      float: left;
+      width: 600px;
+      height: 620px;
+      box-sizing: border-box;
+}
+
+.link5,
+.link6_active,
+.link7,
+.link8,
+.copyright {
+      float: left;
+      padding: 15px 15px;
+      margin-top: 20px;
+      box-sizing: border-box;
+      background-color: e1e1e1;
+}
+
+.link5 {
+      width: 150px;
+      height: auto;
+}
+
+.link6_active {
+      width: 100px;
+      height: auto;
+      text-align: center;
+}
+
+.link7 {
+      width: 170px;
+      height: auto;
+      text-align: center;
+}
+
+.link8 {
+      width: 175px;
+      height: auto;
+}
+
+.copyright {
+      width: 305px;
+      height: auto;
+      text-align: right;
+
+}
+.a_foot {
+      text-decoration: none;
+      font-size: 18px;
+      font-family: Calibri;
+      color: black;
+}
+
+.a_link6_active {
+      font-size: 20px;
+      font-family: Calibri;
+      color: black;
+}
+
+.lm1,
+.lm2,
+.lm4,
+.lm5,
+.lm6 {
+      padding: 15px 15px;
+      width:300px;
+      height: auto;
+      box-sizing: border-box;
+      border-top: 1px solid;
+      border-right: 1px solid;
+      border-left: 1px solid;
+      border-color: c8c8c8;
+      color: 7a7878;
+      font-size: 18px;
+}
+/* border-collapse: collape - для таблицы, как для дива схлопывание сделать - я не знаю,
+поєтому пришлось так по-глупому делать рамки. скажите как правильно, плиз */
+.lm6 {
+      border-bottom: 1px solid;
+      border-color: c8c8c8;
+}
+
+.lm3_active {
+      padding: 15px 35px;
+      width:300px;
+      height: auto;
+      box-sizing: border-box;
+      border-top: 1px solid;
+      border-right: 1px solid;
+      border-left: 1px solid;
+      border-color: c8c8c8;
+      color: 2c2c2c;
+      font-size: 18px;
+      background-color: f9f9f9;
+}
+
+.circle {
+      box-sizing: border-box;
+      height: 400px;
+      width: 600px;
+      border: 1px solid;
+      border-color: c8c8c8;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      }
+
+.text {
+      padding: 40px 0px 20px 20px;
+      font-family: Calibri;
+      font-size: 16px;
+      letter-spacing: normal;
+      line-height: 1.4;
+}
